@@ -7,7 +7,6 @@ extends CharacterBody2D
 var new_direction = Vector2(0,1) #only move one spaces
 var animation
 
-
 func _physics_process(delta):
 		# get player input (left, right, up, down
 	var direction: Vector2
